@@ -17,7 +17,7 @@ def list_bucket():
         return False
     return True
 
-## Create AWS S3 bucket using python boto3
+# Create AWS S3 bucket using python boto3
 def create_bucket(bucket_name, region=None):
     try:
         if region is None:
